@@ -1299,6 +1299,78 @@ img {
 }
 
 @media screen and (min-width: 1300px) {
+  .nav {
+    column-gap: 3rem;
+    margin: 0.25rem 10rem;
+  }
+
+  .nav-toggle,
+  .nav-close {
+    display: none;
+  }
+
+  .nav-menu {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 8rem;
+  }
+
+  .nav-list {
+    flex-direction: row;
+    column-gap: 4rem;
+  }
+
+  .nav-buttons {
+    flex-direction: row;
+    column-gap: 0.5rem;
+    margin-left: 10rem;
+  }
+
+  .main {
+    width: 1310px;
+  }
+
+  .home-container {
+    min-width: 1310px;
+  }
+
+  .home-banner .name-product {
+    position: absolute;
+    bottom: 10rem;
+    left: 3rem;
+    font-size: 3.5rem;
+  }
+
+  .why-choose-us {
+    min-width: 1480px;
+  }
+
+  .partnership {
+    min-width: 1480px;
+  }
+
+  .categories {
+    min-width: 1480px;
+  }
+
+  .our-product {
+    min-width: 1480px;
+  }
+
+  .our-product-container {
+    min-width: 1480px;
+  }
+
+  .newslatter {
+    min-width: 1480px;
+  }
+
+  .footer {
+    min-width: 1480px;
+  }
+
   ::-webkit-scrollbar {
     width: 0.6rem;
     border-radius: 0.5rem;
